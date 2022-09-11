@@ -29,7 +29,7 @@ namespace Mini_aplicatie
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.s = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label6 = new System.Windows.Forms.Label();
             this.calendarZbor = new System.Windows.Forms.MonthCalendar();
@@ -63,7 +63,7 @@ namespace Mini_aplicatie
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.tabControl1.SuspendLayout();
+            this.s.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.clasaZbor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvion)).BeginInit();
@@ -74,17 +74,17 @@ namespace Mini_aplicatie
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // s
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(12, 44);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1175, 630);
-            this.tabControl1.TabIndex = 0;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
+            this.s.Controls.Add(this.tabPage1);
+            this.s.Controls.Add(this.tabPage2);
+            this.s.Controls.Add(this.tabPage3);
+            this.s.Location = new System.Drawing.Point(12, 26);
+            this.s.Name = "s";
+            this.s.SelectedIndex = 0;
+            this.s.Size = new System.Drawing.Size(1175, 630);
+            this.s.TabIndex = 0;
+            this.s.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -130,7 +130,7 @@ namespace Mini_aplicatie
             this.spreCalendar.Name = "spreCalendar";
             this.spreCalendar.Size = new System.Drawing.Size(135, 45);
             this.spreCalendar.TabIndex = 10;
-            this.spreCalendar.Text = "Spre Calendar";
+            this.spreCalendar.Text = "Go to Calendar";
             this.spreCalendar.UseVisualStyleBackColor = true;
             this.spreCalendar.Click += new System.EventHandler(this.spreCalendar_Click);
             // 
@@ -140,7 +140,7 @@ namespace Mini_aplicatie
             this.spreCalculator.Name = "spreCalculator";
             this.spreCalculator.Size = new System.Drawing.Size(136, 45);
             this.spreCalculator.TabIndex = 9;
-            this.spreCalculator.Text = "Spre Calculator";
+            this.spreCalculator.Text = "Go to Calculator";
             this.spreCalculator.UseVisualStyleBackColor = true;
             this.spreCalculator.Click += new System.EventHandler(this.spreCalculator_Click);
             // 
@@ -366,22 +366,24 @@ namespace Mini_aplicatie
             // 
             // buttonHome2
             // 
-            this.buttonHome2.Location = new System.Drawing.Point(168, 425);
+            this.buttonHome2.BackColor = System.Drawing.Color.Coral;
+            this.buttonHome2.Location = new System.Drawing.Point(150, 407);
             this.buttonHome2.Name = "buttonHome2";
-            this.buttonHome2.Size = new System.Drawing.Size(107, 41);
+            this.buttonHome2.Size = new System.Drawing.Size(125, 41);
             this.buttonHome2.TabIndex = 6;
-            this.buttonHome2.Text = "Return Home";
-            this.buttonHome2.UseVisualStyleBackColor = true;
+            this.buttonHome2.Text = "Return home";
+            this.buttonHome2.UseVisualStyleBackColor = false;
             this.buttonHome2.Click += new System.EventHandler(this.buttonHome2_Click);
             // 
             // alegeData
             // 
-            this.alegeData.Location = new System.Drawing.Point(168, 340);
+            this.alegeData.BackColor = System.Drawing.Color.SandyBrown;
+            this.alegeData.Location = new System.Drawing.Point(150, 340);
             this.alegeData.Name = "alegeData";
-            this.alegeData.Size = new System.Drawing.Size(111, 42);
+            this.alegeData.Size = new System.Drawing.Size(125, 42);
             this.alegeData.TabIndex = 5;
-            this.alegeData.Text = "Alege data";
-            this.alegeData.UseVisualStyleBackColor = true;
+            this.alegeData.Text = "Choose the date";
+            this.alegeData.UseVisualStyleBackColor = false;
             this.alegeData.Click += new System.EventHandler(this.alegeData_Click);
             // 
             // pictureBox1
@@ -433,11 +435,11 @@ namespace Mini_aplicatie
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1199, 714);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.s);
             this.Name = "Form1";
             this.Text = "Flight reservation application";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.s.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.clasaZbor.ResumeLayout(false);
@@ -456,7 +458,7 @@ namespace Mini_aplicatie
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl s;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;

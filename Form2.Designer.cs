@@ -140,6 +140,7 @@ namespace Mini_aplicatie
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "PayTicketsFlightDemo";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderCVV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderDataCard)).EndInit();
             this.ResumeLayout(false);

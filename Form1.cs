@@ -163,27 +163,26 @@ namespace Mini_aplicatie
         private void spreCalculator_Click(object sender, EventArgs e)
         {
 
-            tabControl1.SelectTab("tabPage2");
+            s.SelectTab("tabPage2");
         }
 
         private void spreCalendar_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectTab("tabPage3");
+            s.SelectTab("tabPage3");
         }
 
         private void buttonHome1_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectTab("tabPage1");
+            s.SelectTab("tabPage1");
         }
 
         private void buttonHome2_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectTab("tabPage1");
+            s.SelectTab("tabPage1");
         }
 
         private void clasaZbor_Enter(object sender, EventArgs e)
         {
-            //add
         }
     }
 }

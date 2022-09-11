@@ -40,8 +40,6 @@ namespace Mini_aplicatie
                 errorProviderCVV.SetError(labelCvv, "Allow only numeric values!");
 
                 labelCvv.Text = "Allow only numeric values!";
-
-                
             }
             else
             {
@@ -58,13 +56,6 @@ namespace Mini_aplicatie
                 errorProviderDataCard.SetError(labelDataCard, "Allow only numeric values!");
 
                 labelDataCard.Text = "Allow only numeric values!";
-
-
-               
-                
-
-
-
             }
             else
             {
@@ -86,6 +77,11 @@ namespace Mini_aplicatie
                     textBoxDateCard.AppendText("-");
                 */
             }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
     
