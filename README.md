@@ -2,7 +2,7 @@
 
 A sample Windows Forms application created in C# using Visual Studio which simulates a flight reservation system. 
 
-###Screenshots
+### Screenshots
 
 ![image](https://user-images.githubusercontent.com/67371383/195162556-83c4b037-d77a-4172-9383-fa663dcd2241.png)
 
