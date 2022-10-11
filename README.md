@@ -12,3 +12,4 @@ A sample Windows Forms application created in C# using Visual Studio which simul
 
 ![image](https://user-images.githubusercontent.com/67371383/195162731-78b4cb86-9c7f-4ca6-9ef4-9e2807818e6a.png)
 
+![image](https://user-images.githubusercontent.com/67371383/195165976-f4b60ea3-d78f-49d2-8750-08117a1b1e5f.png)
